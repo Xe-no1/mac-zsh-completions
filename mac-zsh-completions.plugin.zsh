@@ -1,2 +1,2 @@
 #!/bin/zsh
-fpath=($fpath $ZPLUGINDIR/mac-zsh-completions/completions)
+fpath+="${0:h}/completions"
